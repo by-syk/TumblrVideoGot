@@ -1,5 +1,9 @@
 # Tumblr Video Got
 
+[![Release](https://img.shields.io/badge/Download-XDA%20Labs-green.svg)](https://labs.xda-developers.com/store/app/com.bysyk.tumblrvideogot.pro)
+[![Download](https://img.shields.io/badge/Download-FREE-brightgreen.svg)](https://github.com/by-syk/TumblrVideoGot/tree/master/app/stableFree/release)
+[![Download](https://img.shields.io/badge/Download-PRO-brightgreen.svg)](https://github.com/by-syk/TumblrVideoGot/tree/master/app/stablePro/release)
+
 ![Banner](art/banner.png)
 
 A tiny Android app for getting video URL from tumblr video post URL.

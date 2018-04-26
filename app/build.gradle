@@ -36,18 +36,10 @@ android {
             versionNameSuffix ".stable"
             versionCode = Integer.valueOf(getDate()) * 100 + 0
         }
-        // 特点：
-        // 不支持解析安全模式限制的内容
-        // 能连接 Tumblr 的情况下才能解析
-        // 只解析低画质资源
         free {
             dimension "engine"
             applicationIdSuffix ".free"
         }
-        // 特点：
-        // 支持解析安全模式限制的内容
-        // 多接口、无代理解析
-        // 解析高画质资源（若存在）
         pro {
             dimension "engine"
             applicationIdSuffix ".pro"
