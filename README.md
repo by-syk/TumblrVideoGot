@@ -6,7 +6,7 @@
 
 ![Banner](art/banner.png)
 
-A tiny Android app for getting video URL from tumblr video post URL.
+A tiny Android app for getting video URL from Tumblr video post URL.
 
 + How to use?
 
