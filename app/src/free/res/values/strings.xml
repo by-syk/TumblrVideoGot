@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tumblr Video Get</string>
+
+    <string name="about_desc">"bysyk developed the tiny app for getting video URL from Tumblr video post URL.
+\n> Any questions, contact:
+  By_syk@163.com
+\nCopyright © 2018 bysyk. All rights reserved."</string>
+
+</resources>

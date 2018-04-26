@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="intent_label">Get Tumblr Video</string>
+    <string name="label_post_url">Post URL</string>
+    <string name="label_video_url">Video URL</string>
+    <string name="action_download">Download</string>
+    <string name="action_play">Play</string>
+    <string name="toast_post_url_copied">Post URL copied.</string>
+    <string name="toast_video_url_copied">Video URL copied.</string>
+    <string name="toast_log_copied">Log message copied.</string>
+    <string name="log_invalid_post_url">not tumblr post</string>
+    <string name="log_safe_mode_limit">sensitive media</string>
+    <string name="log_err">something went wrong</string>
+    <string name="menu_about">About</string>
+    <string name="dlg_title_about">About</string>
+    <string name="dlg_bt_got_it">Got it</string>
+    <string name="video_quality_hd">HD</string>
+    <string name="switch_crawler_on">Activate the crawler</string>
+
+</resources>

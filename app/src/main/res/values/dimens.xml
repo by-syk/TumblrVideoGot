@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="activity_horz_margin">16dp</dimen>
+    <dimen name="activity_ver_margin">16dp</dimen>
+
+    <dimen name="dlg_horz_padding">24dp</dimen>
+    <dimen name="dlg_ver_padding">20dp</dimen>
+
+    <dimen name="unit">8dp</dimen>
+    <dimen name="unit_0.5x">4dp</dimen>
+    <dimen name="unit_1.5x">12dp</dimen>
+    <dimen name="unit_2x">16dp</dimen>
+
+</resources>

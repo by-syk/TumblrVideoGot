@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WelcomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingEnd="@dimen/activity_horz_margin"
+        android:paddingStart="@dimen/activity_horz_margin"
+        android:paddingTop="@dimen/activity_ver_margin">
+
+        <Switch
+            android:id="@+id/switch_crawler_on"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/switch_crawler_on" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/unit_2x"
+            android:background="?android:attr/dividerHorizontal" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_ver_margin"
+            android:paddingEnd="@dimen/activity_horz_margin"
+            android:paddingStart="@dimen/activity_horz_margin"
+            android:paddingTop="@dimen/unit_1.5x">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="For testing >>>" />
+
+            <EditText
+                android:id="@+id/et_video_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="test video id" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onTestDownload"
+                    android:text="Download" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/unit_0.5x"
+                    android:onClick="onTestPlay"
+                    android:text="Play" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/unit_0.5x"
+                    android:onClick="onTestCopyUrl"
+                    android:text="Copy URL" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/et_post_url"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="test post url" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onTestCrawler"
+                android:text="Share" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
